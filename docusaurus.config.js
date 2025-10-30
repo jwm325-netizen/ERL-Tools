@@ -11,8 +11,8 @@ const projectName = "github-pages-docusaurus";
 const config = {
   title: "My Site",
   tagline: "Dinosaurs are cool",
-  url: `https://jwm325-netizen.github.io`,
-  baseUrl: `/ERL-Tools/`,
+  url: `https://${organizationName}.github.io`,
+  baseUrl: `/${projectName}/`,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
   favicon: "img/favicon.ico",
