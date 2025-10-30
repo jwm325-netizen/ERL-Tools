@@ -9,8 +9,8 @@ const projectName = "ERL-Tools";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
+  title: "Tools for Electronic Resources Librarians",
+  tagline: "ERM Team @ Lehigh University Libraries",
   url: `https://${organizationName}.github.io`,
   baseUrl: `/${projectName}/`,
   onBrokenLinks: "throw",
