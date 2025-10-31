@@ -68,5 +68,7 @@ The new cells in the new column will be populated with the results of the API ca
 value.parseJson().entries[0]['kb:collection_name']+": "+value.parseJson().entries[0]['kb:coverage']
 ```
 If you would prefer to use enumerated coverage, use this expression instead:
-```value.parseJson().entries[0]['kb:collection_name']+": "+value.parseJson().entries[0]['kb:coverage_enum']```
+```
+value.parseJson().entries[0]['kb:collection_name']+": "+value.parseJson().entries[0]['kb:coverage_enum']
+```
 In the new column, for rows that have a match in the KB, you should now see something that looks like this: **JSTOR Archival Journals and Primary Sources Collection: fulltext@1939-11-01~2023-10-01**
