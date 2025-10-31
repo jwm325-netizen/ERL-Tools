@@ -4,15 +4,22 @@ sidebar_position: 1
 
 # Helpful Excel Formulas
 
-You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.
+Here are examples of a few of the Excel formulas we used to manipulate data as a part of our bound journal weeding project:
 
+TEXTJOIN:
 
-Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://github.com/facebook/docusaurus/discussions/4610)
+We had several columns that displayed coverage from various backfile purchases and we wanted to merge them into a single column with some sort of delimiter. 
 
-## What's next?
+Initially we used Excel's CONCATENATE function, but since we applied no logic to it, the empty cells ended up containing just the delimiters. 
 
-- Read the [official documentation](https://docusaurus.io/).
-- Add a custom [Design and Layout](https://docusaurus.io/docs/styling-layout)
-- Add a [search bar](https://docusaurus.io/docs/search)
-- Find inspirations in the [Docusaurus showcase](https://docusaurus.io/showcase)
-- Get involved in the [Docusaurus Community](https://docusaurus.io/community/support)
+So, instead we used the TEXTJOIN function.
+
+Example spreadsheet data:
+
+|JSTOR|Springer Backfile Purchase 2016|ScienceDirect Backfile Purchase 2019|
+|-----------|----------|-----------|
+|JSTOR, 1975-2019|Springer Backfile 2016, 1975-present||
+
+This formula will merge the three columns above with a semicolon as the delimiter and will ignore blank cells:
+
+```=TEXTJOIN(";",TRUE,A1,B1,C1)```
