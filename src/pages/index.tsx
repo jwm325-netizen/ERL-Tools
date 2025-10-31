@@ -31,9 +31,7 @@ export default function Home(): JSX.Element {
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-      <h1>Hello!</h1>
-      <p>This site is a creation of Jason Moore, Electronic Resources Librarian at Lehigh University Libraries.
-      It is meant to serve as a simple repository of helpful tools for working with eResources metadata.</p>
+      <HomepageHeader />
     </Layout>
   );
 }
