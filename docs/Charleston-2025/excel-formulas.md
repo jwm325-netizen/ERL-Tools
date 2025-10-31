@@ -6,7 +6,7 @@ sidebar_position: 1
 
 Here are examples of a few of the Excel formulas we used to manipulate data as a part of our bound journal weeding project.
 
-## TEXTJOIN:
+## TEXTJOIN
 
 We had several columns that displayed coverage from various backfile purchases and we wanted to merge them into a single column with some sort of delimiter. 
 
@@ -49,11 +49,11 @@ In this example, the imported data is in a table named **NewTable** and the imfo
 
 ### Breakdown of the formula by Function:
 
-IFERROR: If the INDEX and MATCH functions return an error, the formula returns a blank cell, represented by the empty quotation marks at the end of the formula. 
+**IFERROR:** If the INDEX and MATCH functions return an error, the formula returns a blank cell, represented by the empty quotation marks at the end of the formula. 
 
-INDEX: Indexes the Coverage column in NewTable
+**INDEX:** Indexes the Coverage column in NewTable
 
-MATCH: Matches the data in cell A2 in the destination table with the data in the ISSN column of NewTable if it is an excact match. 
+**MATCH:** Matches the data in cell A2 in the destination table with the data in the ISSN column of NewTable if it is an excact match. 
 
 
 
