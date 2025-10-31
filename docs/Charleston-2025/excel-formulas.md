@@ -34,7 +34,7 @@ If a unique identifier is available, INDEX MATCH can be used to bring data from 
 
 The data should be either imported through the Get Data function on the Data tab in Excel, or pasted into a new sheet. 
 
-:::note 
+:::tip 
 It helps to format the data in both sheets as a table- allowing easy reference to ranges
 
 :::
