@@ -6,7 +6,7 @@ sidebar_position: 1
 
 Here are examples of a few of the Excel formulas we used to manipulate data as a part of our bound journal weeding project:
 
-TEXTJOIN:
+##TEXTJOIN:##
 
 We had several columns that displayed coverage from various backfile purchases and we wanted to merge them into a single column with some sort of delimiter. 
 
