@@ -90,7 +90,7 @@ const config = {
                 label: "Intro",
                 to: "/docs/intro",
                 label: "Charleston 2025",
-                to: "/docs/charleston-2025",
+                to: "/docs/category/charleston-2025",
               },
             ],
           },
