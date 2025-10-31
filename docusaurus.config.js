@@ -87,34 +87,32 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "Tutorial",
+                label: "Intro",
                 to: "/docs/intro",
+                label: "Charleston 2025",
+                to: "/docs/charleston-2025",
               },
             ],
           },
           {
-            title: "Community",
+            title: "Lehigh LTS",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
+                label: "GitHub",
+                href: "https://github.com/lehigh-university-libraries",
               },
               {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                label: "LTS Home",
+                href: "https://lts.lehigh.edu/",
               },
             ],
           },
           {
-            title: "More",
+            title: "Jason's Stuff",
             items: [
               {
-                label: "Blog",
-                to: "/blog",
+                label: "LinkedIn",
+                href: "https://www.linkedin.com/in/jwilsonmoore/",
               },
               {
                 label: "GitHub",
