@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Hi! My name is Jason Moore. I'm an Electronic Resources Librarian for Lehigh University Libraries. This site functions as a repository of tech tools and tips for managing e-resource metadata. 
 
 ## Getting Started
 
