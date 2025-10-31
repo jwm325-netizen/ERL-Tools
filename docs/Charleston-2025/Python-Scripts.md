@@ -6,7 +6,7 @@ sidebar_position: 3
 
 In some cases, the only title list we had available was in an addendum to a license agreement. We wanted to be able to match the list to a Knowledge Base package to ensure that our holdings were accurate but there was no easy way to derive useable structured data from the PDF so we created a python script that can extract just the ISSN numbers. 
 
-##Process
+## Process
 
 1. Ensure that the PDF file is searchable. If it is not, use Adobe Acrobat's Scan and OCR function.
 2. Copy and paste the data from the title list portion of the document into a file named ``input.txt`` in a folder that will also contain the python script.
