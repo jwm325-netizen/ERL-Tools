@@ -22,7 +22,9 @@ So, instead we used the TEXTJOIN function.
 
 This formula will merge the three columns above with a semicolon as the delimiter and will ignore blank cells:
 
-```=TEXTJOIN(";",TRUE,A1,B1,C1)```
+```scala
+=TEXTJOIN(";",TRUE,A1,B1,C1)
+```
 
 ## INDEX MATCH
 
@@ -39,7 +41,9 @@ It helps to format the data in both sheets as a table- allowing easy reference t
 
 ### Example:
 
-```scala =IFERROR(INDEX(NewTable[Coverage], MATCH(A2,NewTable[ISSN],0)),"")```
+```scala
+=IFERROR(INDEX(NewTable[Coverage], MATCH(A2,NewTable[ISSN],0)),"")
+```
 
 In this example, the imported data is in a table named **NewTable** and the imformation we want to retrieve in our new column is in a column named **Coverage**. 
 
