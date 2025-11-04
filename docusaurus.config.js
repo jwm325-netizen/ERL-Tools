@@ -72,12 +72,6 @@ const config = {
             position: "left",
             label: "Docs",
           },
-          { to: "/blog", label: "Blog", position: "left" },
-          {
-            href: `https://github.com/${organizationName}/${projectName}`,
-            label: "GitHub",
-            position: "right",
-          },
         ],
       },
       footer: {
