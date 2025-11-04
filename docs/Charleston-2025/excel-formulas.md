@@ -14,7 +14,7 @@ Initially we used Excel's CONCATENATE function, but since we applied no logic to
 
 So, instead we used the TEXTJOIN function.
 
-### Example spreadsheet data:
+### Example spreadsheet data
 
 |JSTOR|Springer Backfile Purchase 2016|ScienceDirect Backfile Purchase 2019|
 |-----------|----------|-----------|
@@ -39,7 +39,7 @@ It helps to format the data in both sheets as a table- allowing easy reference t
 
 :::
 
-### Example:
+### Example
 
 ```scala
 =IFERROR(INDEX(NewTable[Coverage], MATCH(A2,NewTable[ISSN],0)),"")
@@ -47,7 +47,7 @@ It helps to format the data in both sheets as a table- allowing easy reference t
 
 In this example, the imported data is in a table named **NewTable** and the imformation we want to retrieve in our new column is in a column named **Coverage**. 
 
-### Breakdown of the formula by Function:
+### Breakdown of the formula by Function
 
 **IFERROR:** If the INDEX and MATCH functions return an error, the formula returns a blank cell, represented by the empty quotation marks at the end of the formula. 
 
