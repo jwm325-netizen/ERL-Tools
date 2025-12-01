@@ -1,0 +1,8 @@
+{
+  "label": "Google Apps Scripts",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Google Apps Scripts for working with data in Google Sheets."
+  }
+}
