@@ -6,7 +6,7 @@ sidebar_position: 1
 
 Using a Google Sheet of journal title metadata without identifiers, fetch ISSNs from CrossRef using cleaned/normalized journal titles. 
 
-## Setup:
+## Setup
 
 Make sure that your Sheets document has the journal titles in the A column and includes a column labeled ISSN. 
 
@@ -118,4 +118,8 @@ function fetchIssnFromApi(journalTitle) {
   }
 }
 ```
+##Deployment
+
+Click "Deploy" to add the script to your project.
+
 This will create a toolbar item called CrossRef Tools with one item labeled Fetch CrossRef ISSNS (Clean and Overwrite)
