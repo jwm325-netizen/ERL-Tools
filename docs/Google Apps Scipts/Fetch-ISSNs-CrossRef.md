@@ -118,7 +118,7 @@ function fetchIssnFromApi(journalTitle) {
   }
 }
 ```
-##Deployment
+## Deployment
 
 Click "Deploy" to add the script to your project.
 
