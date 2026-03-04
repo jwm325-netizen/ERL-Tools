@@ -83,6 +83,8 @@ const config = {
               {
                 label: "Intro",
                 to: "/docs/intro",
+                label: "ER&L Fest 2026",
+                to: "/docs/ER&L%20Fest%202026/CelusReports",
                 label: "Charleston 2025",
                 to: "/docs/category/charleston-2025",
               },
