@@ -82,7 +82,7 @@ const config = {
             items: [
               {
                 label: "ER&L Fest 2026",
-                to: "/docs/category/ERL-Fest",
+                to: "/docs/category/ERL-Fest-2026",
               },
               {
                 label: "Charleston 2025",
