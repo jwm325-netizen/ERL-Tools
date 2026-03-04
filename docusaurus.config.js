@@ -78,11 +78,9 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "Docs",
+            title: "Conference Docs",
             items: [
               {
-                label: "Intro",
-                to: "/docs/intro",
                 label: "ER&L Fest 2026",
                 to: "/docs/ER&L%20Fest%202026/CelusReports",
                 label: "Charleston 2025",
